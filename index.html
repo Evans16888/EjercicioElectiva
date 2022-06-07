@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="Español">
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" type="text/css" href="public/app.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Oleo+Script&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=NO">
+    
+
+    <title>platzigram</title>
+</head>
+
+<body>
+    <section id="main-container">
+        <div class="container">
+            <div class="row">
+                <div class="col s10 push-s1">
+                    <div class="row">
+                        <div class="col m5 hide-on-small-only">
+                            <img class="iphone" src="public/Iphone.png" >
+                        </div>
+                        <div class="col s12 m7">
+                            <div class="row">
+                                <div class="signup-box">
+                                    <h1 class="platzigram">platzigram</h1>
+                                    <form class="signup-form">
+                                        <h2>registrate para ver fotos de tus amigos en platzigram</h2>
+                                        <div class="section">
+                                            <a class="btn btn-fb hiden-on-small-only">iniciar sesión con Facebook</a>
+                                            <a class="btn btn-fb hide-on-med-and-up">iniciar sesión</a>
+                                        </div>
+                                        <div class="divider"></div>
+                                        <div class="section">
+                                            <input type="email" name="email" placeholder="Corre electrónico"></input>
+                                            <input type="text" name="name" placeholder="Nombre completo"></input>
+                                            <input type="text" name="username" placeholder="Nombre de usuario"></input>
+                                            <input type="password" name="password" placeholder="Contraseña"></input>
+                                            <button class="btn waves-effect waves-light btn-signup" type="submit">regístrate</button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="row">
+                            <div class="login-box">
+                                ¿tienes una cuenta?<a href="/signin">Entrar</a>
+                            </div>                                   
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col s12 l3 center-aling">
+                    
+  <a class='dropdown-trigger btn btn-flat' href='#' data-target='dropdown1'>Idioma</a>
+
+ 
+  <ul id='dropdown1' class='dropdown-content'>
+    <li><a href="#!">Español</a></li>
+    <li><a href="#!">Inglés</a></li>
+
+  </ul>
+                </div>
+                <div class="col s12 l3 push-l6 center-align">
+                    © 2022 platzigram
+                </div>
+            </div>
+        </div>
+    </footer>
+
+<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<script>
+ $('.dropdown-trigger').dropdown();
+</script>
+</body>
+
+</html>
